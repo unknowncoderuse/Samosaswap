@@ -1,0 +1,16 @@
+{
+  "name": "samosa-swaps",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@uniswap/widgets": "latest"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
