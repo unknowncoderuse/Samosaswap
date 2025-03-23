@@ -4,35 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uniswap Widget</title>
-    
-    <!-- Load React & ReactDOM First -->
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    
-    <!-- Load Babel for JSX -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    
-    <!-- Load Uniswap Widget -->
-    <script src="https://unpkg.com/@uniswap/widgets@latest"></script>
-    <link rel="stylesheet" href="https://unpkg.com/@uniswap/widgets@latest/fonts.css">
 </head>
 <body>
-    <h1 style="text-align: center;">Uniswap Swap Widget</h1>
     <div id="root"></div>
-
-    <script type="text/babel">
-        const { SwapWidget } = window["@uniswap/widgets"];
-        const { createRoot } = ReactDOM;
-
-        function App() {
-            return (
-                <div style={{ width: "400px", height: "500px", margin: "20px auto" }}>
-                    <SwapWidget />
-                </div>
-            );
-        }
-
-        createRoot(document.getElementById("root")).render(<App />);
-    </script>
+    <script src="../src/app.js"></script>
 </body>
 </html>
